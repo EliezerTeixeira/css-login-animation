@@ -114,3 +114,20 @@ form .btn-login{
         transform: translateX(0);
     }
 }
+
+/* sumir com o form, clicando no button */ 
+
+.form-hide{
+    animation-name: movedown;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+
+}
+
+@keyframes movedown{
+    from{
+        transform: translateY(0)
+    }to{
+        transform: translateY(100vh)
+    }
+}
