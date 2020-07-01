@@ -71,13 +71,15 @@ form .btn-login{
 
 form{
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
 }
 
 @keyframes fade{
     from{
         opacity: 0;
+        transform: scale(0.8);
     }to{
         opacity: 1;
+        transform: scale(1);
     }
 }
