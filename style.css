@@ -119,8 +119,9 @@ form .btn-login{
 
 .form-hide{
     animation-name: movedown;
-    animation-duration: 500ms;
+    animation-duration: 1.2s;
     animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
 
 }
 
