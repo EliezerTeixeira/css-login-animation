@@ -11,6 +11,7 @@ html, body{
 body{
     background-color: rgb(163, 2, 2);
     font-family: Roboto, Arial, sans-serif;
+    overflow: hidden;
 }
 
 section{
@@ -25,6 +26,7 @@ h1{
     letter-spacing: 1px;
     margin: 20px 0;
     color: white;
+    text-align: center;
 }
 
 form{
@@ -148,5 +150,32 @@ form.validate-error{
         transform: translateX(20%);
     }100%{
         transform: translateX(0)
+    }
+}
+
+/* squares */
+
+.squares li{
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.15);
+    display: block;
+    position: absolute;
+    bottom: 0;
+    animation: background 1s infinite;
+    /* animation-direction: alternate; */
+}
+
+@keyframes background{
+    from{
+        opacity: 0;
+        transform: translateY(0);
+    }
+    50%{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        transform: translateY(-700px) rotate(960deg);
     }
 }
