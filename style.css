@@ -49,7 +49,7 @@ form .input-block input{
     margin-top: 8px;
     padding: 7px;
     font-size: 16px;
-    color:rgb(163, 2, 2);
+    color: darkslategray;
     border-radius: 2px;
     border: 1px solid #ccddef;
     outline-color: rgb(163, 2, 2);
